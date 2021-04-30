@@ -3,8 +3,7 @@ import os
 
 setup(
     name='hipyi',
-    use_scm_version={"write_to": os.path.join("hipypi", "_version.py")},
-    version='v0.0.0',
+    version='v0.0.1',
     packages=[''],
     url='',
     license='',
