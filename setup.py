@@ -3,11 +3,11 @@ import os
 
 setup(
     name='hipyi',
-    version='v0.0.1',
+    use_scm_version={"write_to": os.path.join("hipypi", "_version.py")},
     packages=[''],
     url='',
     license='',
     author='Daniel Morcuende',
     author_email='dmorcuende@gmail.com',
-    description='Test pypi deply'
+    description='Test pypi deploy'
 )
