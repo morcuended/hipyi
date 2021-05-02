@@ -5,6 +5,9 @@ setup(
     name='hipyi',
     use_scm_version={"write_to": os.path.join("hipypi", "_version.py")},
     packages=find_packages(),
+    install_requires=[
+        'setuptools_scm',
+    ],
     url='',
     license='',
     author='Daniel Morcuende',
