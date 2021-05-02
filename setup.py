@@ -1,10 +1,10 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 import os
 
 setup(
     name='hipyi',
     use_scm_version={"write_to": os.path.join("hipypi", "_version.py")},
-    packages=[''],
+    packages=find_packages(),
     url='',
     license='',
     author='Daniel Morcuende',
